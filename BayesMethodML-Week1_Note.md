@@ -1,4 +1,4 @@
-Course3 - Bayesian Method in Machine Learning
+Bayesian Method in Machine Learning - Week1
 ===============================
 
 # 1. Introduction to Bayesian methods
@@ -55,7 +55,7 @@ Quá trình training|Tìm theta để **Maximum Likelihood Estimation (MLE)**| T
 
 
 ## 1.4. Example: thief & alarm
-
+* Bài toán giúp ôn tập lại xác suất. Đến đoạn cuối video có chút *bất ngờ thú vị*!!
 * Phát biểu bài toán:
 ![RealExample-ThiefAndAlarm](./Images/RealExample-ThiefAndAlarm.png) 
     * Mua thiết bị báo động chống trộm vào nhà
@@ -63,9 +63,13 @@ Quá trình training|Tìm theta để **Maximum Likelihood Estimation (MLE)**| T
     * Nếu có động đất thì thiết bị sẽ báo động sai
     * Nếu có động đất *mạnh* thì đài sẽ thông báo và chủ nhà sẽ biết thông tin này
 
-## 1.5.
+## 1.5. Linear regression
+* Tiếp cận bài toán theo góc nhìn của Bayesian
+* Sau khi đưa ra hàm cần tối ưu ta thấy giống với hàm mục tiêu tìm được theo cách minimize mean square error. Ngoài ra, phần Regularization xuất hiện nhờ việc đưa xác suất trước P(theta) vào.
 
+## 1.6. MLE estimation of Gaussian mean
+* Ví dụ minh họa cách dùng MLE để tìm mean của 1 phân bố Gaussian (Normal Distribution)
 
 ## Tài liệu tham khảo
 
-### 1. [Bayesian Methods for Machine Learning](https://www.coursera.org/learn/bayesian-methods-in-machine-learning) 
+### 1. [Bayesian Methods for Machine Learning - Week1](https://www.coursera.org/learn/bayesian-methods-in-machine-learning/home/week/1) 
